@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Painel de conteúdo | Clínica Veter</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/admin.css">
+  <script src="js/content.js" defer></script>
+  <script src="js/admin.js" defer></script>
+</head>
+<body class="admin">
+  <header class="admin__bar">
+    <div class="container admin__bar-inner">
+      <a class="admin__brand" href="./">Clínica Veter <span>Painel de conteúdo</span></a>
+      <div class="admin__actions">
+        <button class="btn btn--ghost" type="button" data-action="preview">Pré-visualizar no site</button>
+        <button class="btn btn--primary" type="button" data-action="download">Baixar content.js</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container admin__main">
+    <section class="admin__intro">
+      <h1>Editar o conteúdo do site</h1>
+      <p>Altere horários, avisos, serviços, equipe, avaliações e fotos abaixo. As mudanças <strong>não são publicadas automaticamente</strong>: ao terminar, clique em <strong>Baixar content.js</strong> e substitua o arquivo <code>js/content.js</code> do repositório pelo arquivo baixado (no GitHub: abra <code>js/content.js</code> → ícone de lápis → cole o conteúdo, ou use “Add file → Upload files”). O site é atualizado em alguns minutos.</p>
+      <p>Use <strong>Pré-visualizar no site</strong> para conferir o resultado antes. O rascunho fica salvo apenas neste navegador.</p>
+      <p class="admin__status" data-status role="status" aria-live="polite"></p>
+      <div class="btn-row">
+        <button class="btn btn--ghost" type="button" data-action="reset">Descartar rascunho e recarregar o conteúdo publicado</button>
+      </div>
+    </section>
+
+    <nav class="admin__toc" aria-label="Seções do painel" data-toc></nav>
+    <div data-editor></div>
+  </main>
+</body>
+</html>

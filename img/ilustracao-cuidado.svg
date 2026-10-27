@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 600" width="560" height="600">
+  <clipPath id="frame"><rect width="560" height="600"/></clipPath>
+  <g clip-path="url(#frame)">
+  <rect width="560" height="600" fill="#DDEFE4"/>
+  <path d="M0 420c120-40 220 10 320-20s170-70 240-40v240H0Z" fill="#CFE6D7"/>
+  <circle cx="280" cy="250" r="190" fill="#F7F4ED"/>
+  <!-- coração grande -->
+  <path d="M280 196c-30-22-52-38-52-62a26 26 0 0 1 52-8 26 26 0 0 1 52 8c0 24-22 40-52 62Z" fill="#2F8061"/>
+  <path d="M276 132h8v10h10v8h-10v10h-8v-10h-10v-8h10Z" fill="#F7F4ED"/>
+  <!-- sombra -->
+  <ellipse cx="290" cy="482" rx="200" ry="20" fill="#174C3C" opacity=".12"/>
+  <!-- cão deitado (perfil) -->
+  <g>
+    <path d="M440 470c50 0 74-20 70-44-3-18-24-20-34-8" stroke="#3A3330" stroke-width="20" fill="none" stroke-linecap="round"/>
+    <path d="M170 476c-6-60 40-110 140-114 90-4 150 30 150 80 0 22-10 34-30 34Z" fill="#3A3330"/>
+    <path d="M240 476c10-30 40-50 80-50" stroke="#554C47" stroke-width="12" fill="none" stroke-linecap="round" opacity=".7"/>
+    <!-- patas dianteiras -->
+    <rect x="96" y="452" width="150" height="30" rx="15" fill="#3A3330"/>
+    <ellipse cx="104" cy="470" rx="22" ry="13" fill="#F1E6D4"/>
+    <!-- cabeça apoiada -->
+    <ellipse cx="176" cy="412" rx="74" ry="62" fill="#3A3330"/>
+    <path d="M110 420c-34 0-60 14-60 34 0 16 18 22 40 22h60Z" fill="#3A3330"/>
+    <path d="M60 448c0-14 22-24 52-24" stroke="#F1E6D4" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <ellipse cx="52" cy="440" rx="12" ry="10" fill="#1E1A18"/>
+    <path d="M118 400c8 6 20 6 28 0" stroke="#F1E6D4" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M186 362c40-6 66 26 60 70-4 30-26 40-40 22-12-16-26-60-20-92Z" fill="#26201E"/>
+  </g>
+  <!-- mão fazendo carinho -->
+  <g>
+    <path d="M410 250c-40 6-90 40-118 80-8 12 0 24 14 22 18-3 40-14 58-24l-10 18c-6 12 6 22 18 14 30-20 62-48 82-74Z" fill="#E3B997"/>
+    <path d="M298 340c18-3 40-14 58-24M346 362c30-20 62-48 82-74" stroke="#C9976F" stroke-width="4" fill="none" stroke-linecap="round" opacity=".7"/>
+    <path d="M410 250l70-30 40 70-66 26Z" fill="#174C3C"/>
+    <path d="M448 236l36 64" stroke="#2F8061" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <!-- folhas -->
+  <g fill="#2F8061">
+    <path d="M60 140c-10-36 8-64 40-74 10 34-8 64-40 74Z" opacity=".7"/>
+    <path d="M500 170c4-34 30-52 60-50-4 34-30 52-60 50Z" opacity=".55"/>
+  </g>
+  </g>
+</svg>

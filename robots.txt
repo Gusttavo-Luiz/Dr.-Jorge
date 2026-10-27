@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /admin.html
+
+Sitemap: https://gusttavo-luiz.github.io/Dr.-Jorge/sitemap.xml
