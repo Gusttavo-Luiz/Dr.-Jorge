@@ -3,10 +3,10 @@
   <g clip-path="url(#frame)">
   <rect width="560" height="600" fill="#DDEFE4"/>
   <path d="M0 420c120-40 220 10 320-20s170-70 240-40v240H0Z" fill="#CFE6D7"/>
-  <circle cx="280" cy="250" r="190" fill="#F7F4ED"/>
+  <circle cx="280" cy="250" r="190" fill="#F7F8F5"/>
   <!-- coração grande -->
   <path d="M280 196c-30-22-52-38-52-62a26 26 0 0 1 52-8 26 26 0 0 1 52 8c0 24-22 40-52 62Z" fill="#2F8061"/>
-  <path d="M276 132h8v10h10v8h-10v10h-8v-10h-10v-8h10Z" fill="#F7F4ED"/>
+  <path d="M276 132h8v10h10v8h-10v10h-8v-10h-10v-8h10Z" fill="#F7F8F5"/>
   <!-- sombra -->
   <ellipse cx="290" cy="482" rx="200" ry="20" fill="#174C3C" opacity=".12"/>
   <!-- cão deitado (perfil) -->
