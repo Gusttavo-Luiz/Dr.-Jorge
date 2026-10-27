@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 640" width="560" height="640">
   <clipPath id="frame"><rect width="560" height="640"/></clipPath>
   <g clip-path="url(#frame)">
-  <rect width="560" height="640" fill="#F7F4ED"/>
+  <rect width="560" height="640" fill="#F7F8F5"/>
   <circle cx="420" cy="140" r="170" fill="#DDEFE4"/>
   <circle cx="90" cy="560" r="120" fill="#E8F3EC"/>
   <!-- janela -->
